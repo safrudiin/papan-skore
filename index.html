@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skor Pertandingan Bulu Tangkis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="score">
+            <h1 id="score">0 - 0</h1>
+        </div>
+
+        <div>
+            <h3 id="timer">Timer: 00:00</h3>
+            <button onclick="startTimer()">Mulai Timer</button>
+            <button onclick="resetTimer()">Reset Timer</button>
+        </div>
+
+        <div>
+            <button onclick="increaseScore(1)">+</button>
+            <button onclick="increaseScore(2)">+</button>
+            <button onclick="resetScore()">Reset Skor</button>
+        </div>
+
+        <footer>
+            <h5>KT PAREANOM BLIMBING</h5>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
